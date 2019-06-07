@@ -1,5 +1,9 @@
 Change notes from older releases.
 
+## Cavendish-MW 0.3.3
+
+* Updated for mediawiki-1.32.
+
 ## Cavendish-MW 0.3.2
 
 * (merge 3) Small tweak for English as well as adding German translation.

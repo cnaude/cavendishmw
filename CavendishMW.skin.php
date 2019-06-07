@@ -267,8 +267,8 @@ class CavendishMWTemplate extends BaseTemplate {
 
 <?php
         }
-        wfRunHooks( 'MonoBookTemplateToolboxEnd', array( &$this ) );
-        wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this, true ) );
+        Hooks::run( 'MonoBookTemplateToolboxEnd', array( &$this ) );
+        Hooks::run( 'SkinTemplateToolboxEnd', array( &$this, true ) );
 ?>
         </ul>
     </li>
